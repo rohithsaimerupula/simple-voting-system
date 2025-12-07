@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f9ff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    padding-top: 60px;
+}
+
+.title-3d {
+    font-size: 48px;
+    animation: float 3s infinite ease-in-out;
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0px); }
+}
+
+.menu .btn {
+    display: block;
+    width: 200px;
+    margin: 12px auto;
+    padding: 12px;
+    background: #0077ff;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0055cc;
+    transform: scale(1.05);
+}
+
+.card {
+    width: 330px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px #0002;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 6px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
